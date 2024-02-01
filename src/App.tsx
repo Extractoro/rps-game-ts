@@ -83,10 +83,7 @@ const App: FC = () => {
           <div className="flex flex-col items-center">
             <h3 className="text-2xl font-bold text-center mb-2">Bot Player</h3>
             <div className="">
-              <BotChoice
-                handleClick={handleClick}
-                randomBotChoice={randomBotChoice}
-              />
+              <BotChoice handleClick={handleClick} />
             </div>
           </div>
 

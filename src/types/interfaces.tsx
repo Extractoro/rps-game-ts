@@ -8,5 +8,4 @@ export interface IButtonProps {
 
 export interface IBotButtonProps {
   handleClick: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-  randomBotChoice: () => string;
 }
