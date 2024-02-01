@@ -5,3 +5,8 @@ export interface IButtonProps {
   isDisabled: boolean;
   handleClick: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
+
+export interface IBotButtonProps {
+  handleClick: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  randomBotChoice: () => string;
+}
